@@ -1,6 +1,11 @@
+:root {
+  --white: #ffffff;
+  --navyblue: #2e2f42;
+  --iris: #4d5ae5;
+}
 body {
   color: #434455;
-  background-color: var(--#FFFFFF);
+  background-color: var(--white);
   font-family: "Roboto", sans-serif;
 }
 
@@ -11,7 +16,7 @@ body {
 }
 .header-logo {
   color: var(--navyblue, #4d5ae5);
-  font-family: "Raleway",sans-serif
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -26,6 +31,12 @@ body {
 
 .link {
   text-decoration: none;
+}
+.link:hover {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
 }
 .list {
   list-style-type: none;
@@ -43,6 +54,7 @@ body {
   letter-spacing: 0.02em;
 }
 .header-adress {
+  font-style: normal;
 }
 .header-adress-list {
 }
@@ -57,9 +69,10 @@ body {
 }
 /* _____________HERO_____________ */
 .hero {
+  background-color: var(--navyblue);
 }
 .hero-title {
-  background-color: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue);
   color: var(--white, #fff);
   text-align: center;
   font-size: 56px;
@@ -70,6 +83,7 @@ body {
 .hero-btn {
   background-color: var(--iris, #4d5ae5);
   color: var(--white, #fff);
+  font-family: font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -78,7 +92,7 @@ body {
 
 .hero-btn-pf {
   background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
+  color: var(--iris);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -132,6 +146,7 @@ body {
 
 /* _________ section 3____________*/
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   color: var(--navyblue, #2e2f42);
@@ -143,6 +158,7 @@ body {
   text-transform: capitalize;
 }
 .team-list {
+  background-color: #f4f4fd;
 }
 
 .team-item {
@@ -164,6 +180,7 @@ body {
 
 /* _________footer____________*/
 .footer {
+  background-color: #2e2f42;
 }
 .footer-logo {
   color: var(--navyblue, #2e2f42);
