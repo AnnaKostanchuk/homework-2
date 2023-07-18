@@ -2,6 +2,7 @@
   --white: #ffffff;
   --navyblue: #2e2f42;
   --iris: #4d5ae5;
+  --cloud: #f4f4fd;
 }
 body {
   color: #434455;
@@ -11,6 +12,7 @@ body {
 
 /*____________ HEADER_____________ */
 .header {
+  color: var(--iris);
 }
 .header-nav {
 }
@@ -37,6 +39,13 @@ body {
 }
 .link:focus {
   color: #404bbf;
+}
+
+.link-pf:hover {
+  color: #ffffff;
+}
+.link-pf:focus {
+  color: #ffffff;
 }
 .list {
   list-style-type: none;
@@ -92,21 +101,23 @@ body {
   cursor: pointer;
 }
 
+.hero-btn-all {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04rem;
+  cursor: pointer;
+}
 .link-btn:hover {
   background-color: #404bbf;
 }
 .link-btn:focus {
   background-color: #404bbf;
 }
-.hero-btn-pf {
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
+
 /* _________ section 1____________*/
 .skils {
 }
@@ -188,7 +199,7 @@ body {
 
 /* _________footer____________*/
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--navyblue);
 }
 .footer-logo {
   color: var(--navyblue, #2e2f42);
@@ -199,6 +210,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.studio {
+  color: #f4f4fd;
 }
 
 .footer-text {
